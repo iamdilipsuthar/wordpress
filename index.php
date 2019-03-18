@@ -18,6 +18,5 @@ add_filter( 'manage_edit-mp-event_sortable_columns', 'set_custom_mycpt_sortable_
 
 function set_custom_mycpt_sortable_columns( $columns ) {
   $columns['location'] = 'location';
-  return $columns;
-echo 'dsadas';
+
 }
